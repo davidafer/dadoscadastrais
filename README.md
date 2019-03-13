@@ -32,6 +32,16 @@ Para testes, foram cadastrados os seguintes CPF's:
     74812553261
 
 
+# Banco de Dados
+Para a aplicação, foi utilizado um banco de dados h2 em memória. Pode-se acessá-lo através do browser pela url descrita a seguir ou através de algum gerenciador para banco de dados h2:
+
+    http://localhost:8080/h2-console/
+    
+    JDBC url: jdbc:h2:mem:testdb
+    Username: sa
+    Password: <deixar em branco>
+
+
 # Consulta Cliente
 Uma das funções da API é a consulta de um cliente cadastrado. Para efetuá-la, deve-se fazer uma requisição GET para o endereço a seguir passando o cpf como parâmetro:
     
